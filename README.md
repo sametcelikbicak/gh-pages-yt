@@ -1,16 +1,37 @@
-# React + Vite
+# GitHub Pages Nasıl Kullanılır? - YouTube Videosu Örneği
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu repo, GitHub Pages'ın nasıl kullanıldığını gösteren bir YouTube videosu için örnek olarak oluşturulmuştur. React ve Vite kullanılarak hazırlanmış basit bir proje ile GitHub Pages'e deploy işlemini adım adım öğrenebilirsiniz.
 
-Currently, two official plugins are available:
+## İlgili YouTube Videosu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Bu repo'nun anlatıldığı YouTube videosunu aşağıdan izleyebilirsiniz:
 
-## React Compiler
+<iframe width="560" height="315" src="https://youtu.be/l6J8xgA7Afg" title="GitHub Actions kullanarak Projeyi GitHub Pages ile yayına alma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Kurulum ve Çalıştırma
 
-## Expanding the ESLint configuration
+1. Bağımlılıkları yükleyin:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   npm install
+   ```
+
+2. Geliştirme sunucusunu başlatın:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Build almak için:
+   ```bash
+   npm run build
+   ```
+
+## GitHub Pages'e Deploy Etme
+
+Bu proje GitHub Pages için optimize edilmiştir. Deploy etmek için:
+
+1. Repo'yu GitHub'a push edin.
+2. Repository ayarlarından **Settings > Pages** bölümüne gidin.
+3. **Source** olarak **GitHub Actions** seçin.
+4. Eğer GitHub Actions workflow'u yoksa, manuel olarak ekleyebilirsiniz veya Vite'nin build çıktısını `dist` klasöründen `gh-pages` branch'ine push edin.
