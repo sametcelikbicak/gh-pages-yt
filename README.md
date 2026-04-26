@@ -6,7 +6,7 @@ Bu repo, GitHub Pages'ın nasıl kullanıldığını gösteren bir YouTube video
 
 Bu repo'nun anlatıldığı YouTube videosunu aşağıdan izleyebilirsiniz:
 
-<iframe width="560" height="315" src="https://youtu.be/l6J8xgA7Afg" title="GitHub Actions kullanarak Projeyi GitHub Pages ile yayına alma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![GitHub Actions kullanarak Projeyi GitHub Pages ile yayına alma](https://img.youtube.com/vi/l6J8xgA7Afg/0.jpg)](https://youtu.be/l6J8xgA7Afg)
 
 ## Kurulum ve Çalıştırma
 
